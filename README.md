@@ -1,2 +1,4 @@
 # STWTP-
 Transmission of messages securely without the help of third party vendors(PKE's)
+
+  To transmit messages between client and server securely we depend on third party vendors who are generally referred as public key exchanger(PKE). Though the transmission of key is secure hackers can break after a certain secure transmission of messages. So, the main goal of this project is to Secure Transmission Without Third Party(STWTP) by using different key each and every time a message is transmitted to other user. We can't depend on PKE's each and every time for transmission of new key's when we want to transmit a new message. So this project mainly focuses on transmission of messages without using third party vendors by using application inbuilt keys for encryption of messages to transmit and decrypting encrypted messages which the user received. Each and every message transmitted is being encrypted with new keys.   
